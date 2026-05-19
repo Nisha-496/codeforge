@@ -65,3 +65,6 @@ desktop.ini
 
 # --- Misc ---
 *.pem
+
+# --- Claude Code (auto-evolving permission file, keep local) ---
+.claude/
