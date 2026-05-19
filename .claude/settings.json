@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go version *)",
+      "Bash(go mod *)",
+      "Bash(go get *)",
+      "Bash(ls C:/Users/proni/.claude/projects/d--codeforge/memory/ 2>&1)",
+      "Read(//c/Users/proni/.claude/projects/d--codeforge/memory/**)",
+      "Bash(go build *)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(python -c \"import json; json.load\\(open\\('.claude/settings.json'\\)\\); print\\('json valid'\\)\")",
+      "Bash(npx --yes create-next-app@14 frontend --typescript --tailwind --app --src-dir --eslint --import-alias \"@/*\" --use-npm)",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
